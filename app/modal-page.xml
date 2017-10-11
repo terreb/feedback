@@ -1,0 +1,6 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="onLoaded" class="page">
+    <StackLayout class="p-20">
+        <Label text="I'm modal page" class="h1 text-center"/>
+        <Button text="Tap to show feedback" tap="showFeedback" class="btn btn-primary btn-active"/>
+    </StackLayout>
+</Page>
