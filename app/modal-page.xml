@@ -1,6 +1,6 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" class="page">
-    <StackLayout class="p-20">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+    <GridLayout>
         <Label text="I'm modal page" class="h1 text-center"/>
-        <Button text="Tap to show feedback" tap="showFeedback" class="btn btn-primary btn-active"/>
-    </StackLayout>
+        <Button text="Tap to show feedback" tap="showFeedback" class="btn btn-primary btn-active" height="50"/>
+    </GridLayout>
 </Page>

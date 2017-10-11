@@ -19,5 +19,5 @@ export function openModal() {
 
     page.showModal( modal, {}, () => {
         page.closeModal()
-    })
+    }, true)
 }
